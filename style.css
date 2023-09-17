@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fefefe;
+}
+.folder{
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+}
+button{
+    padding: .75rem;
+    font-size: 1.5rem;
+    margin: .5rem;
+    border: .25rem solid #0202029c;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+button:active{
+    transition:all .25s linear;
+}
+.decrease:active{
+    background-color: #f00808;
+}
+.increase:active{
+    background-color: #08f027;
+}
+.reset:active{
+    background-color: gray;
+}
+#value{
+    font-size: 4.9rem;
+}
+.counterBtns{
+    margin: 2.5rem;
+}
